@@ -1,7 +1,5 @@
 package com.github.walt79.orderbookengine.main;
 
-import java.text.DecimalFormat;
-
 public class RandomDouble {
 
 	final int MAX = 4096;
@@ -28,8 +26,7 @@ public class RandomDouble {
 	
 	private double getRandom()
 	{
-		DecimalFormat twoDForm = new DecimalFormat("#.##"); 
-		return Double.valueOf(twoDForm.format(Math.random() * 100));
+		return Double.valueOf(Math.random() * 100);
 	}
 	
 	public double nextDouble() {
