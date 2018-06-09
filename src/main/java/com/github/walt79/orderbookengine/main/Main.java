@@ -1,8 +1,4 @@
-package src;
-
-import src.OrderBookEngine;
-import src.RandomDouble;
-import src.RandomInt;
+package com.github.walt79.orderbookengine.main; //package name tbd
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package src;
+package com.github.walt79.orderbookengine.main;
 
 import org.junit.Assert;
 import org.junit.Test;

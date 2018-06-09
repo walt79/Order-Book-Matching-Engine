@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.walt79</groupId>
+    <artifactId>Order-Book-Matching-Engine</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <description>Order-Book-Matching-Engine</description>
+
+	<properties>
+        <org.apache.maven.plugins_maven-compiler-plugin>3.7.0</org.apache.maven.plugins_maven-compiler-plugin>
+        <org.apache.maven.plugins_maven-compiler-plugin_configuration_source>1.8</org.apache.maven.plugins_maven-compiler-plugin_configuration_source>
+        <org.apache.maven.plugins_maven-compiler-plugin_configuration_target>1.8</org.apache.maven.plugins_maven-compiler-plugin_configuration_target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+	<build>
+		<plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${org.apache.maven.plugins_maven-compiler-plugin}</version>
+                <configuration>
+                    <source>${org.apache.maven.plugins_maven-compiler-plugin_configuration_source}</source>
+                    <target>${org.apache.maven.plugins_maven-compiler-plugin_configuration_target}</target>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
+</project>
